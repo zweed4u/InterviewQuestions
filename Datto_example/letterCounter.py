@@ -5,7 +5,7 @@ def count(arg):
 	for i in arg:
 		for j in i:
 			print j + ' occurs '+str(i.count(j))
+		print '...in word "'+str(i)+'"'
 		print '\n'
-
 word=raw_input('Word? ')
 count(word.lower())
